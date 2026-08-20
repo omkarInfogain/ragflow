@@ -56,7 +56,7 @@ jobs:
           CI: "true"
           NO_COLOR: "1"
           FORCE_COLOR: "0"
-          BMAD_TOOLS: "github-copilot"
+          BMAD_TOOLS: "github-copilot,claude-code"
         run: |
           if [ -d "_bmad" ]; then
             echo "BMAD already installed - skipping."
